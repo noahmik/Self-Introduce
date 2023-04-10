@@ -9,55 +9,71 @@
     <link href="./Photo/DevCoop.jpg"
     rel="shortcut icon" type="image/x-icon">
 </head>
-<body style="text-align:center;">
+<body>
     <nav class="navbar">
         <div class="nav_logo">  
           <i class="fa-solid fa-star"></i>
           <a href="">Taeyoung <span>introduce !</span></a>
-        
         </div>
+
         <div class="nav_postion">
-        <ul class="nav_menu">
-          <li><a href="#s1">Home</a></li>
-          <li><a href="#s2">Introduce</a></li>
-          <li><a href="#s3">Project</a></li>
-          <li><a href="#s4">Hardship</a></li>
-        </ul>
+          <ul class="nav_menu">
+            <li><a href="#s1">Home</a></li>
+            <li><a href="#s2">Introduce</a></li>
+            <li><a href="#s3">Hobby</a></li>
+            <li><a href="#s4">Contact</a></li>
+          </ul>
         </div>
+        
         <ul class="nav_icons">
           <li><i class="fa-brands fa-twitter"></i></li>
           <li><i class="fa-brands fa-facebook"></i></li>
         </ul>
         <a href="#" class="navbar_toggleBtn">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars">히히</i>
         </a>
      </nav>
     <div id="full-page">
-
-    <section id="s1" class="list">  
-      <div>
-      <img src="Photo/한태영.jpg" width="500px" height="500px" />
-      </div>
-      <h3><b>안녕하세요 ! 1316한태영이라고 합니다 !</b></h3>
+      <section id="s1" class="list">  
+        <img src="Photo/한태영.jpg" alt="profile" width="500px" height="500px"/>
+        <h3><strong>안녕하세요 ! 열심히 공부중인 1316한태영이라고 합니다.</strong>
+          <br><br><br>스크롤 하시면 저에 대해 더 아실 수 있어요!😆</h3>
       </section>
-    
+      
       <section id="s2" class="list">
-      <h1>section 2</h1>
+        
+        <img id="introduce_img" src="Photo/자기소개.jpg"/>
+        <h1>안녕하세요 !</h1>
+        <p><strong>안녕하세여 !</strong></p>
+
+
       </section>
 
-      <section id="s3" class="list">  
-      <h1>section 3</h1>
+      <section id="s3" class="list"> 
+        <br>
+        <div>
+        <img class="hobby_img" src="Photo/게임.jpg"/>
+        <h2>Game🎮</h2>
+        </div>
+        <div>
+        <img class="hobby_img" src="Photo/기타.jpg"/>
+        <h2>Guitar🎸</h2>
+        </div>
+        <div>
+        <img class="hobby_img" src="Photo/농구.jpg"/>
+        <h2>Basketball🏀</h2>  
+        </div>
+        <div>
+        <img class="hobby_img" src="Photo/음악.jpg"/>
+        <h2>Sing and Listen to music🎤</h2>    
+        </div>  
+        </section>
+        <section id="s4" class="list">  
       </section>
+    </div>
 
-      <section id="s4" class="list">  
-      <h1>section 4</h1>
-      </section>
-      </div>
 
-      script>
-      new fullpage('#full-page', {})
-      </script>
-
+ 
      <script src="self.js"></script>
 </body>
 </html> 
