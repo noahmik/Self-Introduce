@@ -80,7 +80,7 @@ text-align:center;
 
 .nav_menu li:hover {
   color: var(--background-color);
-  background-color: yellow;
+  background-color: rgb(227, 227, 170);
   border-radius: 4px;
   color: black;
 }
